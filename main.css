@@ -1,0 +1,146 @@
+* {
+
+    /*font-family: Georgia, Times, serif;*/
+    font-family: serif, Times, serif;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.navbar-header { /*Main name on left side - where logo with be*/
+  font-size: 1.5em !important;
+  color: blue !important;
+}
+
+.nav{ /*titles/ nav on right side*/
+    font-size: 1.3em !important;
+    color: blue !important;
+}
+
+.navbar{ /*full navbar*/
+    background-color: black !important;
+    color: blue !important;
+}
+
+.colorText {
+  color: white;
+}
+
+.nav.navbar-nav.navbar-right li a {
+  color: blue;
+  font-size: 1.0em !important;
+  margin-bottom:-90px;
+}
+
+/*.navbar-inverse{
+
+  font-size:1.3em;
+  margin-bottom:0px;
+  color: green;
+}*/
+
+.parallax-window {
+    min-height: 800px;
+    max-width: auto;
+    background: cover transparent;
+}
+
+.container-parallax{
+  position: top center;
+  background-size: cover;
+  /*width: 100%;*/
+}
+
+.info{
+  z-index: 1;
+  position: relative; top: 350px;
+  color: white;
+  font-size: 4em;
+}
+.info1{
+  z-index: 1;
+  position: relative; top: 350px;
+  color: white;
+  font-size: 2em;
+}
+
+.bg-primary { /*profile picture background*/
+  background-color: black !important;
+  text-align: center;
+  font-size: 1.5em;
+  /*padding-bottom: 20rem;
+  padding-top: 10rem;*/
+  position: relative; top: 0px;
+
+}
+
+
+img.rounded-corners{ /*profile picture*/
+  width: 275px;
+  height: 400px;
+  border-radius: 300%;
+  float: middle;
+
+}
+
+.parallax { /*code parallax*/
+    min-height: 900px;
+    padding-bottom: 100rem
+    max-width: auto;
+    background: cover transparent;
+    position: relative; top: 0px;
+}
+
+.edu {
+  font-size: 3rem;
+  background-color: white;
+  /*padding-bottom: 15rem;
+  padding-top: 15rem;*/
+  /*position: relative; top: 0px;*/
+  position: absolute; top: 50px;
+  z-index: 2;
+}
+
+.parallax2 {
+    min-height: 1000px;
+    max-width: auto;
+    background: cover transparent;
+    position: relative; top: 0px;
+}
+
+.int {
+  background-color: #0A132A !important;
+  padding-bottom: 50rem;
+  padding-top: 5rem;
+  position: relative; top: 0px;
+}
+
+.parallax3 {
+    min-height: 600px;
+    max-width: auto;
+    background: cover transparent;
+    position: relative; top: 0px;
+    padding-bottom: -1000rem;
+
+}
+
+.contact { /*Phyiscal appearance of contact icons*/
+  color: blue;
+  position: relative; top: -250px;
+  z-index: 1;
+  padding-bottom: 0rem;
+}
+
+.column {  /*Position of Contact Icons*/
+  font-size: 100px;
+  float: left;
+  width: 33.33%;
+  z-index: 3;
+  padding-bottom: -1000rem;
+}
+
+.copyright {
+  background-color: black !important;
+  color: white;
+  bottom: 0px;
+
+}
